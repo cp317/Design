@@ -87,7 +87,7 @@
 											"height": 13,
 											"autoResize": false,
 											"underline": false,
-											"text": "FrontEnd",
+											"text": "StudySpace Application",
 											"horizontalAlignment": 2,
 											"verticalAlignment": 5,
 											"wordWrap": false
@@ -296,7 +296,7 @@
 											"height": 13,
 											"autoResize": false,
 											"underline": false,
-											"text": "(from FrontEnd)",
+											"text": "(from StudySpace Application)",
 											"horizontalAlignment": 2,
 											"verticalAlignment": 5,
 											"wordWrap": false
@@ -370,7 +370,7 @@
 							"left": 416,
 							"top": 120,
 							"width": 233,
-							"height": 401,
+							"height": 409,
 							"autoResize": false,
 							"stereotypeDisplay": "label",
 							"showVisibility": true,
@@ -397,9 +397,15 @@
 							"showShadow": true,
 							"containerChangeable": false,
 							"containerExtending": false,
+<<<<<<< HEAD
+							"left": 440,
+							"top": 360,
+							"width": 185,
+=======
 							"left": 432,
 							"top": 360,
 							"width": 100.91357421875,
+>>>>>>> a9e49f777009c1e1179ff07d50a242bf0384485d
 							"height": 25,
 							"autoResize": false,
 							"text": "HomeWindow",
@@ -420,9 +426,15 @@
 							"showShadow": true,
 							"containerChangeable": false,
 							"containerExtending": false,
+<<<<<<< HEAD
+							"left": 440,
+							"top": 392,
+							"width": 185,
+=======
 							"left": 432,
 							"top": 392,
 							"width": 100.91357421875,
+>>>>>>> a9e49f777009c1e1179ff07d50a242bf0384485d
 							"height": 25,
 							"autoResize": false,
 							"text": "LoginWindow",
@@ -443,9 +455,15 @@
 							"showShadow": true,
 							"containerChangeable": false,
 							"containerExtending": false,
+<<<<<<< HEAD
+							"left": 440,
+							"top": 424,
+							"width": 185,
+=======
 							"left": 432,
 							"top": 424,
 							"width": 103.08447265625,
+>>>>>>> a9e49f777009c1e1179ff07d50a242bf0384485d
 							"height": 25,
 							"autoResize": false,
 							"text": "ProfileWindow",
@@ -466,9 +484,15 @@
 							"showShadow": true,
 							"containerChangeable": false,
 							"containerExtending": false,
+<<<<<<< HEAD
+							"left": 440,
+							"top": 456,
+							"width": 185,
+=======
 							"left": 432,
 							"top": 456,
 							"width": 107.42626953125,
+>>>>>>> a9e49f777009c1e1179ff07d50a242bf0384485d
 							"height": 25,
 							"autoResize": false,
 							"text": "SearchWindow",
@@ -489,9 +513,15 @@
 							"showShadow": true,
 							"containerChangeable": false,
 							"containerExtending": false,
+<<<<<<< HEAD
+							"left": 440,
+							"top": 328,
+							"width": 185,
+=======
 							"left": 432,
 							"top": 328,
 							"width": 93.6962890625,
+>>>>>>> a9e49f777009c1e1179ff07d50a242bf0384485d
 							"height": 25,
 							"autoResize": false,
 							"text": "ChatWindow",
@@ -512,9 +542,15 @@
 							"showShadow": true,
 							"containerChangeable": false,
 							"containerExtending": false,
+<<<<<<< HEAD
+							"left": 440,
+							"top": 168,
+							"width": 185,
+=======
 							"left": 432,
 							"top": 168,
 							"width": 137.787109375,
+>>>>>>> a9e49f777009c1e1179ff07d50a242bf0384485d
 							"height": 25,
 							"autoResize": false,
 							"text": "BeaconChatWindow",
@@ -535,9 +571,15 @@
 							"showShadow": true,
 							"containerChangeable": false,
 							"containerExtending": false,
+<<<<<<< HEAD
+							"left": 440,
+							"top": 296,
+							"width": 185,
+=======
 							"left": 432,
 							"top": 296,
 							"width": 148.63525390625,
+>>>>>>> a9e49f777009c1e1179ff07d50a242bf0384485d
 							"height": 25,
 							"autoResize": false,
 							"text": "BeaconJoinedWindow",
@@ -558,9 +600,15 @@
 							"showShadow": true,
 							"containerChangeable": false,
 							"containerExtending": false,
+<<<<<<< HEAD
+							"left": 440,
+							"top": 232,
+							"width": 185,
+=======
 							"left": 432,
 							"top": 232,
 							"width": 152.234375,
+>>>>>>> a9e49f777009c1e1179ff07d50a242bf0384485d
 							"height": 25,
 							"autoResize": false,
 							"text": "BeaconControlWindow",
@@ -581,9 +629,15 @@
 							"showShadow": true,
 							"containerChangeable": false,
 							"containerExtending": false,
+<<<<<<< HEAD
+							"left": 440,
+							"top": 264,
+							"width": 185,
+=======
 							"left": 432,
 							"top": 264,
 							"width": 159.46435546875,
+>>>>>>> a9e49f777009c1e1179ff07d50a242bf0384485d
 							"height": 25,
 							"autoResize": false,
 							"text": "BeaconCreationWindow",
@@ -604,9 +658,15 @@
 							"showShadow": true,
 							"containerChangeable": false,
 							"containerExtending": false,
+<<<<<<< HEAD
+							"left": 440,
+							"top": 200,
+							"width": 185,
+=======
 							"left": 432,
 							"top": 200,
 							"width": 181.10986328125,
+>>>>>>> a9e49f777009c1e1179ff07d50a242bf0384485d
 							"height": 25,
 							"autoResize": false,
 							"text": "BeaconConfirm-FailWindow",
@@ -647,7 +707,7 @@
 											"showShadow": true,
 											"containerChangeable": false,
 											"containerExtending": false,
-											"left": 0,
+											"left": -16,
 											"top": -96,
 											"width": 0,
 											"height": 13,
@@ -672,7 +732,7 @@
 											"showShadow": true,
 											"containerChangeable": false,
 											"containerExtending": false,
-											"left": 677,
+											"left": 669,
 											"top": 142,
 											"width": 223,
 											"height": 13,
@@ -698,13 +758,13 @@
 											"showShadow": true,
 											"containerChangeable": false,
 											"containerExtending": false,
-											"left": 0,
+											"left": -16,
 											"top": -96,
 											"width": 211.70068359375,
 											"height": 13,
 											"autoResize": false,
 											"underline": false,
-											"text": "(from FrontEnd)",
+											"text": "(from StudySpace Application)",
 											"horizontalAlignment": 2,
 											"verticalAlignment": 5,
 											"wordWrap": false
@@ -724,7 +784,7 @@
 											"showShadow": true,
 											"containerChangeable": false,
 											"containerExtending": false,
-											"left": 0,
+											"left": -16,
 											"top": -96,
 											"width": 0,
 											"height": 13,
@@ -744,7 +804,7 @@
 									"showShadow": true,
 									"containerChangeable": false,
 									"containerExtending": false,
-									"left": 672,
+									"left": 664,
 									"top": 135,
 									"width": 233,
 									"height": 25,
@@ -775,10 +835,10 @@
 							"showShadow": true,
 							"containerChangeable": true,
 							"containerExtending": false,
-							"left": 672,
+							"left": 664,
 							"top": 120,
 							"width": 233,
-							"height": 401,
+							"height": 409,
 							"autoResize": false,
 							"stereotypeDisplay": "label",
 							"showVisibility": true,
@@ -805,9 +865,15 @@
 							"showShadow": true,
 							"containerChangeable": false,
 							"containerExtending": false,
+<<<<<<< HEAD
+							"left": 704,
+							"top": 392,
+							"width": 145,
+=======
 							"left": 688,
 							"top": 392,
 							"width": 105,
+>>>>>>> a9e49f777009c1e1179ff07d50a242bf0384485d
 							"height": 25,
 							"autoResize": false,
 							"text": "Login-Logout",
@@ -828,9 +894,15 @@
 							"showShadow": true,
 							"containerChangeable": false,
 							"containerExtending": false,
+<<<<<<< HEAD
+							"left": 704,
+							"top": 296,
+							"width": 145,
+=======
 							"left": 688,
 							"top": 296,
 							"width": 137,
+>>>>>>> a9e49f777009c1e1179ff07d50a242bf0384485d
 							"height": 25,
 							"autoResize": false,
 							"text": "Invite-NotifyUser",
@@ -851,9 +923,15 @@
 							"showShadow": true,
 							"containerChangeable": false,
 							"containerExtending": false,
+<<<<<<< HEAD
+							"left": 704,
+							"top": 264,
+							"width": 145,
+=======
 							"left": 688,
 							"top": 264,
 							"width": 105,
+>>>>>>> a9e49f777009c1e1179ff07d50a242bf0384485d
 							"height": 25,
 							"autoResize": false,
 							"text": "EditProfile",
@@ -874,9 +952,15 @@
 							"showShadow": true,
 							"containerChangeable": false,
 							"containerExtending": false,
+<<<<<<< HEAD
+							"left": 704,
+							"top": 200,
+							"width": 145,
+=======
 							"left": 688,
 							"top": 200,
 							"width": 140.67529296875,
+>>>>>>> a9e49f777009c1e1179ff07d50a242bf0384485d
 							"height": 25,
 							"autoResize": false,
 							"text": "Create-CloseBeacon",
@@ -897,9 +981,15 @@
 							"showShadow": true,
 							"containerChangeable": false,
 							"containerExtending": false,
+<<<<<<< HEAD
+							"left": 704,
+							"top": 168,
+							"width": 145,
+=======
 							"left": 688,
 							"top": 168,
 							"width": 129.09716796875,
+>>>>>>> a9e49f777009c1e1179ff07d50a242bf0384485d
 							"height": 25,
 							"autoResize": false,
 							"text": "ApplySearchFilters",
@@ -920,9 +1010,15 @@
 							"showShadow": true,
 							"containerChangeable": false,
 							"containerExtending": false,
+<<<<<<< HEAD
+							"left": 704,
+							"top": 232,
+							"width": 145,
+=======
 							"left": 688,
 							"top": 232,
 							"width": 105.97265625,
+>>>>>>> a9e49f777009c1e1179ff07d50a242bf0384485d
 							"height": 25,
 							"autoResize": false,
 							"text": "DisplayResults",
@@ -943,9 +1039,13 @@
 							"showShadow": true,
 							"containerChangeable": false,
 							"containerExtending": false,
+<<<<<<< HEAD
+							"left": 704,
+=======
 							"left": 688,
+>>>>>>> a9e49f777009c1e1179ff07d50a242bf0384485d
 							"top": 328,
-							"width": 140.67529296875,
+							"width": 145,
 							"height": 25,
 							"autoResize": false,
 							"text": "Join-LeaveBeacon",
@@ -966,9 +1066,13 @@
 							"showShadow": true,
 							"containerChangeable": false,
 							"containerExtending": false,
+<<<<<<< HEAD
+							"left": 704,
+=======
 							"left": 688,
+>>>>>>> a9e49f777009c1e1179ff07d50a242bf0384485d
 							"top": 360,
-							"width": 140.67529296875,
+							"width": 145,
 							"height": 25,
 							"autoResize": false,
 							"text": "Join-LeaveChat",
@@ -989,9 +1093,15 @@
 							"showShadow": true,
 							"containerChangeable": false,
 							"containerExtending": false,
+<<<<<<< HEAD
+							"left": 704,
+							"top": 456,
+							"width": 145,
+=======
 							"left": 688,
 							"top": 456,
 							"width": 129.09716796875,
+>>>>>>> a9e49f777009c1e1179ff07d50a242bf0384485d
 							"height": 25,
 							"autoResize": false,
 							"text": "SaveChanges",
@@ -1012,7 +1122,11 @@
 							"showShadow": true,
 							"containerChangeable": false,
 							"containerExtending": false,
+<<<<<<< HEAD
+							"left": 704,
+=======
 							"left": 688,
+>>>>>>> a9e49f777009c1e1179ff07d50a242bf0384485d
 							"top": 424,
 							"width": 177,
 							"height": 25,
@@ -1035,7 +1149,11 @@
 							"showShadow": true,
 							"containerChangeable": false,
 							"containerExtending": false,
+<<<<<<< HEAD
+							"left": 704,
+=======
 							"left": 688,
+>>>>>>> a9e49f777009c1e1179ff07d50a242bf0384485d
 							"top": 488,
 							"width": 142.84619140625,
 							"height": 25,
@@ -1191,7 +1309,7 @@
 					"_parent": {
 						"$ref": "AAAAAAFdKE9YfFOCKek="
 					},
-					"name": "FrontEnd",
+					"name": "StudySpace Application",
 					"ownedElements": [
 						{
 							"_type": "UMLPackage",
