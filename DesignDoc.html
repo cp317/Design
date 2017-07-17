@@ -8,7 +8,7 @@
                 Study Space
             </h1>
             Design Document
-            <br> Version 1.2 - 07/13/2017
+            <br> Version 1.2 - 07/17/2017
         </center>
     </header>
     <ul>
@@ -83,7 +83,10 @@
     <h3><span id="1.2">Scope</span></h3>
     This document is constructed to guide the software developers in the creation of the product.
     <h3><span id="1.3">Definitions</span></h3>
-    BeaconDB - The table in the database which stores a list of all active beacons. ChatDB - The table in the database which logs all chat messages in beacons and between users. UserDB - The table in the database which stores all user credentials. CourseDB – The table in the database which stores all the course details.
+    BeaconDB - The table in the database which stores a list of all active beacons.
+    <br>ChatDB - The table in the database which logs all chat messages in beacons and between users.
+    <br>UserDB - The table in the database which stores all user credentials.
+    <br>CourseDB – The table in the database which stores all the course details.
     <h3><span id="1.4">References</span></h3>
     IEEE. IEEE Std 1016-1998 IEEE Recommended Practice for Software Design Descriptions. IEEE Computer Society, 1998
     <h3><span id="1.5">Overview</span></h3>
@@ -114,9 +117,9 @@
     <h2><span id="3.0">Interface Description</span></h2>
     <h3><span id="3.1">Module Interface</span></h3>
     <h4><span id="3.1.1">Concurrent Process Decomposition</span></h4>
-    //insert table and image
+
     <h4><span id="3.1.2">LoginWindow</span></h4>
-    //insert table and image
+    
     <h4><span id="3.1.3">BeaconCreationWindow</span></h4>
     //insert table and image
     <h4><span id="3.1.4">ClassDiscoveryWindow</span></h4>
@@ -145,8 +148,6 @@
             Return to HomeWindow
         </li>
     </ul>
-    <br>
-
     <b><u>Logout</u></b>
     <br> Parameters: None
     <br> Description: Logs out a RegisteredUser from their account.
@@ -161,7 +162,6 @@
             The user should now be a guest user.
         </li>
     </ul>
-    <br>
     <b><u>EditProfile</u></b>
     <br> Parameters: None
     <br> Description: Opens the ProfileEditWindow so user can apply changes to their RegisteredUser profile.
@@ -170,7 +170,6 @@
             Launch the ProfileEditWindow.
         </li>
     </ul>
-    <br>
     <b><u>SaveChanges</u></b>
     <br> Parameters: String biography, String userName, String gravatar, String school
     <br> Description: Saves changes made to a RegisteredUser ProfileWindow.
@@ -185,7 +184,6 @@
             Return to ProfileWindow.
         </li>
     </ul>
-    <br>
     <b><u>CancelChanges</u></b>
     <br> Parameters: None
     <br> Description: Cancels changes made to a RegisteredUsers ProfileWindow. (Changes are not applied)
@@ -197,7 +195,6 @@
             Return to ProfileWindow.
         </li>
     </ul>
-    <br>
     <b><u>ValidateUser</u></b>
     <br> Parameters: String userName, String password
     <br> Description: Validates a RegisteredUser’s credentials upon login.
@@ -212,7 +209,6 @@
             If credentials do not match, return false.
         </li>
     </ul>
-    <br>
     <h4><span id="4.1.2">Beacon Modules</span></h4>
 
     <b><u>CreateBeacon</u></b>
@@ -223,7 +219,6 @@
             Launch the BeaconCreationWindow
         </li>
     </ul>
-    <br>
     <b><u>EnterInfo</u></b>
     <br> Parameters: RegisteredUser host, String location, Date start, Date end.
     <br> Description: Writes RegisteredUser entered info to the Beacon.
@@ -235,7 +230,6 @@
             Call validate beacon.
         </li>
     </ul>
-    <br>
     <b><u>ValidateBeacon</u></b>
     <br> Parameters: RegisteredUser host, String location, Date start, Date end.
     <br> Description: Validates Beacon Creation.
@@ -259,7 +253,6 @@
             If any is not valid call FailedCreation.
         </li>
     </ul>
-    <br>
     <b><u>FailedCreation</u></b>
     <br> Parameters: None
     <br> Description: Notifies the RegisteredUser controlling the Beacon of failed Beacon creation.
@@ -271,7 +264,6 @@
             Return to BeaconCreationWindow.
         </li>
     </ul>
-    <br>
     <b><u>RegisterBeacon</u></b>
     <br> Parameters: Beacon beacon
     <br> Description: Registers Beacon to BeaconList.
@@ -280,7 +272,6 @@
             Add the beacon to the BeaconList.
         </li>
     </ul>
-    <br>
     <b><u>CloseBeacon</u></b>
     <br> Parameters: String userName
     <br> Description: Allows UserBeacon to be closed by the RegisteredUser who is hosting the Beacon.
@@ -295,7 +286,6 @@
             Open the BeaconCreationWindow.
         </li>
     </ul>
-    <br>
     <b><u>RelocateBeacon</u></b>
     <br> Parameters: String userName, String location
     <br> Description: Allows RegisteredUser controlling the beacon to relocate their Beacon.
@@ -310,7 +300,6 @@
             Update BeaconControlWindow location value.
         </li>
     </ul>
-    <br>
     <b><u>ExtendBeacon</u></b>
     <br> Parameters: String userName, String date
     <br> Description: Allows RegisteredUser controlling the Beacon to extend the time of their Beacon.
@@ -322,7 +311,6 @@
             Extend the date to the date specified.
         </li>
     </ul>
-    <br>
     <b><u>JoinBeacon</u></b>
     <br> Parameters: String userName
     <br> Description: Joins a GuestUser or RegisteredUser to a Beacon
@@ -349,7 +337,6 @@
                 </ul>
             </li>
     </ul>
-    <br>
     <b><u>LeaveBeacon</u></b>
     <br> Parameters: String userName
     <br> Description: Removes a GuestUser or RegisteredUser from a Beacon they are in.
@@ -378,7 +365,6 @@
             User can accept or decline.
         </li>
     </ul>
-    <br>
     <b><u>ApplySearchFilters</u></b>
     <br> Parameters: String course, String location
     <br> Description: Applies Filters to be used while searching BeaconDB.
@@ -390,7 +376,6 @@
             Call DisplayResults
         </li>
     </ul>
-    <br>
     <b><u>DisplayResults</u></b>
     <br> Parameters: None
     <br> Description: Displays results of a search.
@@ -405,7 +390,6 @@
             Show HomeWindow.
         </li>
     </ul>
-    <br>
     <b><u>BackToSearch</u></b>
     <br> Parameters: None
     <br> Description: Redirects GuestUser or RegisteredUser back to SearchWindow after a failed search.
@@ -417,7 +401,6 @@
             Launch search window.
         </li>
     </ul>
-    <br>
     <h4><span id="4.1.3">Chat</span></h4>
     Description: Sends a message to a chat.
     <ul>
@@ -434,7 +417,7 @@
 
     <h3><span id="4.2">Documentation</span></h3>
     <b>Angular</b> Angular is an open-source front-end platform used to build web applications. It is maintained by Google, and was developed with the goal of minimizing size and maximizing performance of web applications. It is TypeScript based, meaning applications developed in angular can be coded in JavaScript. Angular has been chosen for the implementation of Study Space because it is robust and excels in the development of data-driven applications. It provides libraries that will make difficult operations such as data binding much easier. It allows for plenty of code reuse, and applications developed with Angular can be viewed on multiple platforms. Finally, Angular is well documented and easy to learn; There are plenty of resources online that can be accessed, including Tutorials on the Angular website.
-
+    <br>
     <br>
     <b>Materialize</b> Materialize is a CSS framework that allows attractive front end design for webpages. It was created by Google, and allows a unified user experience across many platforms. Materialize will be useful in styling the Study Space web application with a modern look and feel, as well as the implementation of self-evident features.
     <br>
@@ -465,7 +448,7 @@
     <h5>Version 1.2 - 07/17/2017</h5>
     <i>Updated and bugfixed</i>
     <ul>
-    <li>- Jonathan Wu</li>
+        <li>- Jonathan Wu</li>
     </ul>
 </body>
 
