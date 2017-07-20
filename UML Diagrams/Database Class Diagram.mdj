@@ -235,7 +235,7 @@
 											"height": 13,
 											"autoResize": false,
 											"underline": false,
-											"text": "+first_name: String[1]",
+											"text": "+firstName: String[1]",
 											"horizontalAlignment": 0,
 											"verticalAlignment": 5,
 											"wordWrap": false
@@ -264,7 +264,7 @@
 											"height": 13,
 											"autoResize": false,
 											"underline": false,
-											"text": "+last_name: String[1]",
+											"text": "+lastName: String[1]",
 											"horizontalAlignment": 0,
 											"verticalAlignment": 5,
 											"wordWrap": false
@@ -4079,7 +4079,7 @@
 							"_parent": {
 								"$ref": "AAAAAAFdNRz5UojzNPI="
 							},
-							"name": "first_name",
+							"name": "firstName",
 							"visibility": "public",
 							"isStatic": false,
 							"isLeaf": false,
@@ -4098,8 +4098,7 @@
 							"_parent": {
 								"$ref": "AAAAAAFdNRz5UojzNPI="
 							},
-							"name": "last_name",
-							"stereotype": "",
+							"name": "lastName",
 							"visibility": "public",
 							"isStatic": false,
 							"isLeaf": false,
