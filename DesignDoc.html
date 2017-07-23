@@ -96,7 +96,32 @@
     This section shows the decomposition of the system in 3 ways: - Module decomposition is the breakdown of each module, the data and functions of each class is easy to change, reuse and comprehend - Concurrent process decomposition explains what the user will be able to see on each page - Data decomposition explains what is used to store the persistent data.
 
     <h3><span id="2.1">Module Decomposition</span></h3>
-    Package Diagrams The design of Study Space separates the front end and back end. /////insert diagram
+    <h4><span id="2.1.1">Package Diagram</span></h4>
+    <p>The design of Study Space separates the front end and back end. The front end is referred to as the Study Space Application and the backend is referred to as the Study Space Backend.</p> 
+    <img src ="./UML Diagrams/Package Diagram.png">
+
+    <h4><span id="2.1.2">Study Space Application Package Diagram </span></h4>
+    <p>The Study Space front end application is divided into application views and functions related to those views. A detailed description of all functions can be found in Section 4.0 Detailed Design.</p>
+    <img src ="./UML Diagrams/FrontEnd Package Diagram.PNG">
+
+    <h4><span id="2.1.3">Study Space Backend Package Diagram</span></h4>
+    <p>The Study Space backend provides storage and some key services for the frontend.</p>
+    <img src ="./UML Diagrams/BackEnd Package Diagram.PNG">     
+ 
+    <h4><span id="2.1.4">Study Space Application Class Diagram</span></h4>
+    <img src ="./UML Diagrams/ClassDiagram.PNG">
+ 
+    <h4><span id="2.1.5">Study Space Database Class Diagram</span></h4>
+    <img src ="./UML Diagrams/Database Class Diagram.PNG">
+
+    <h5><span style = "text-decoration: underline;">Notes</span></h5>
+
+    <ul>
+        <li>FK refers to foreign key </li>
+        <li>The ​chatlogs will be stored as a string in a text file containing a line for each message in the format "timeStamp: sender, msgString". </li>
+    </ul>  
+
+
     <h3><span id="2.2">Concurrent Process Decomposition</span></h3>
     <h4><span id="2.2.1">HomeWindow</span></h4>
     The main view for the site. It contains a map on the right side which allows for easy selection of beacon locations. It has fields for user to input school, course ID, location, date, start time, end time, and tags for filtering purposes. It will contain a list of active beacons that abide by the filters set which can be joined. Finally, it shall also have a login button at the top right corner.
@@ -116,16 +141,25 @@
     All data will be handled by a real-time server which is hosted using Firebase. Data will be validated locally, and then sent to the server in JSON format. The server will then store the data in the database in JSON format. A unique key will be generated for each piece of data pushed to the server, and this will allow easy referencing of the correct JSON objects.
     <h2><span id="3.0">Interface Description</span></h2>
     <h3><span id="3.1">Module Interface</span></h3>
-    <h4><span id="3.1.1">Concurrent Process Decomposition</span></h4>
+    <h4><span id="3.1.1">Home Window</span></h4>
+    <img width="1000" height="700" src = "./interface diagrams/home_window_ver2.PNG">
+    <img src = "./Charts/home_window_chart.PNG">
 
     <h4><span id="3.1.2">LoginWindow</span></h4>
+    <img src width="1000" height="700" ="./interface diagrams/login_window.PNG">
+    <img src ="./Charts/login_window_chart.PNG">
     
     <h4><span id="3.1.3">BeaconCreationWindow</span></h4>
-    //insert table and image
+    <img width="1000" height="700" src ="./interface diagrams/beacon_create_ver2.PNG">
+    <img src ="./Charts/beacon_create_chart.PNG">
+    
     <h4><span id="3.1.4">ClassDiscoveryWindow</span></h4>
-    /insert table and image
+    <img width="1000" height="700" src ="./interface diagrams/class_discover_ver2.PNG">
+    <img src ="./Charts/class_discovery_chart.PNG">
+
     <h4><span id="3.1.5">UserDiscoveryWindow</span></h4>
-    //insert table and image
+    <img width="1000" height="700" src ="./interface diagrams/user_discover_ver2.PNG">
+    <img src ="./Charts/user_discovery_chart.PNG">
 
     <h2><span id="4.0">Detailed Design</span></h2>
     <h3><span id="4.1">Module Detailed Design</span></h3>
@@ -450,6 +484,13 @@
     <ul>
         <li>- Jonathan Wu</li>
     </ul>
+    <h5>Version 1.3 - 07/22/2017</h5>
+    <i>HTML and Images/Charts added</i>
+    <ul>
+        <li>- Shiv Gupta</li>
+    </ul>
+
+
 </body>
 
 </html>
