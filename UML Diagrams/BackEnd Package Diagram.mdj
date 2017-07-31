@@ -1575,7 +1575,7 @@
 											"height": 13,
 											"autoResize": false,
 											"underline": false,
-											"text": "+gravatar: String",
+											"text": "+profileImageURL: String",
 											"horizontalAlignment": 0,
 											"verticalAlignment": 5,
 											"wordWrap": false
@@ -1662,7 +1662,7 @@
 											"height": 13,
 											"autoResize": false,
 											"underline": false,
-											"text": "+courseCode: String[0..*]",
+											"text": "+courseCode: String[0..8]",
 											"horizontalAlignment": 0,
 											"verticalAlignment": 5,
 											"wordWrap": false
@@ -3398,7 +3398,7 @@
 											"_parent": {
 												"$ref": "AAAAAAFdYRa1KZaMo6c="
 											},
-											"name": "gravatar",
+											"name": "profileImageURL",
 											"visibility": "public",
 											"isStatic": false,
 											"isLeaf": false,
@@ -3453,12 +3453,11 @@
 												"$ref": "AAAAAAFdYRa1KZaMo6c="
 											},
 											"name": "courseCode",
-											"stereotype": "",
 											"visibility": "public",
 											"isStatic": false,
 											"isLeaf": false,
 											"type": "String",
-											"multiplicity": "0..*",
+											"multiplicity": "0..8",
 											"isReadOnly": false,
 											"isOrdered": false,
 											"isUnique": false,
